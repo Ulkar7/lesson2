@@ -3,100 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial">
+    <link rel="stylesheet" href="hw.css">
     <style>
-        .body{
-            background-color: rgb(182, 223, 217);
-            min-height: 100vh;
-            font-family: 'Arial', sans-serif;;
-     
-        }
-        .main{
-            text-align: center;
-            text-size-adjust: 100;
-            font-size: 50px;
-            font-family: 'Arial', sans-serif;;
-             
-            border: 2px solid #333; 
-            padding: 10px; 
-            width: 1310px; 
- 
-        }
-
-        
-         .family{
-            table, th, td {
-  border: 1px solid black;
-}
-th, td {
-  background-color: #7da8a8;
-}
-        text-align: center;
-         font-size: 20px;
-         font-family: 'Arial', sans-serif;;
-         border:1px solid black;
-         
-
-        }
-         .paragraph{
-            text-align: center;
-            font-size: 18px;
-
-         }
-
-
-        
-         .date{
-            text-align: center;
-            font-size: large;
-     
-         }
     </style>
 
-    <title>Document</title>
+    <title>Tercumeyi-Hal</title>
 </head>
 
-
 <body>
-    <div class="body">
-    <h1 class="main">Tərcümeyi-Hal</h1> <br>
+
+<header>
+
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>      
+        <a href="#" class="logo">Tərcümeyi-Hal<span>.</span></a>
+        <nav class="navbar">
+
+                <a href="#haqqimda">haqqımda</a>
+                <a href="#tehsilim">Təhsilim</a>
+                <a href="#elaqe">Əlaqə</a>
+        </nav>
+</header>
+
+    <!-- <div class="body"> 
+     <h1 class="main">Tərcümeyi-Hal</h1> <br> -->
+<br><br><br><br><br><br><br><br>
+    <a target="_blank" href="https://www.facebook.com/">
+    <div class="sekil">
+   <img  width="150" src="./assets/profill.png" alt="profil"  ></a></div><br><br><br>
     <p class="paragraph">Mən, Ülkər Müşfiq qızı Babayeva 2004-cü ildə Bakı şəhərində anadan olmuşam.2021-ci ildə 132 nömrəli complex məktəbi bitirmişəm. Elə həmin ildə Qərbi-Kaspi Universitetinin komputer mühəndisliyi ixtisasına daxil olmuşam. Hal-hazırda təhsilimi davam etdirirəm. <br><br><br><br>
+    <p class="myself"><b>Özüm haqqında məlumat:</b></p>
 
 
-<p class="paragraph">Atam,Müşfiq Tofiq oğlu Babayev 1977-ci ildə Şamaxı rayonunda anadan olmuşdur. Filologiya üzrə fəlsəfə doktorudur. <br>
-    Anam,Aysel İnqilab qızı Babayeva 1979-cu ildə Bakı şəhərində anadan olmuşdur. İngilis dili müəlliməsidir. <br>
-    Bacım,Adilə Müşfiq qızı Babayeva 2000-ci ildə Bakı şəhərində anadan olmuşdur. Data analystir.</p> <br> <br> <br>
-<table class="family">
-    <tr>
-    <th> Müşfiq</th>
-    <th>Aysel</th>
-    <th>Adilə</th>
-</tr>
 
-<tr>
-    <th>1977</th>
-    <th>1979</th>
-    <th>2000</th>
-</tr>
+    <form action="" method="get">
+        <label for="ad">Ad</label>
+        <input id="ad" placeholder="Ad" name="user_name" type="text"><br>
+        <label for="soyad">Soyad</label>
+        <input id="soyad" placeholder="Soyad" name="surname" type="text"><br>
+    </form>
+    <form action="" method="get">
+        <label for="email">Email</label>
+        <input id="email" placeholder="email" name="email" type="email"><br>
+        <button type="submit">submit</button>
+    </form>
 
-<tr>
-    <th>Şamaxı</th>
-    <th>Bakı</th>
-    <th>Bakı</th>
-</tr>
-
-<tr>
-    <th>Filologiya üzrə fəlsəfə doktor <br></th> 
-    <th>İngilis dili müəlliməsi <br></th> 
-    <th>Data analyst</th>
-</tr>
-
-</table>
+    <label for="number">Yaş</label>
+    <input id="number" placeholder="phone number" name="phone_number" type="number">
+    <button type="submit">submit</button>
     
+<br><br><br><br>
+    <video width="320" height="220" controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+
+
+    <br><br><br>
         <br><br><br>
         <span class="date">12.12.2023</span>
         <span class="date">Ü.M.Babayeva</span>
     </div>
-
 
 </body>
 </html>

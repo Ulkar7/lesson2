@@ -3,62 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML ve CSS</title>
+    <link rel="stylesheet" href="external.css">
     <style>
-        .himn{
+        p{
+            color:red;
+            width:250px;
             text-align: center;
+            text-align: left;
+            text-align: right;
+            margin-right: auto;
+            margin-left: auto;
 
 
         }
-        .main{
-            text-align: center;
-            background-color: burlywood;
-            min-height: 100vh; 
-            /* min-height tam ekrani rengledir */
-        }
+
     </style>
-
-    <title>Document</title>
-
 </head>
 
+
+
+
+
 <body>
-    <div class="main">
-    <img width="150" src="./assets/indir.png" alt="bayraq"> <br>
-
-    <h1>Azerbaycan Himni</h1>
-    <h3>Bəstəkar:Üzeyir Hacıbəyov</h3>
-<h3>Müəllifi:Əhməd Cavad</h3>
-
-<p class="himn">
-    Azərbaycan! Azərbaycan! <br>
-    Ey qəhrəman övladın şanlı Vətəni! <br>
-    Səndən ötrü can verməyə cümlə hazırız! <br>
-    Səndən ötrü qan tökməyə cümlə qadiriz! <br>
-    Üçrəngli bayrağınla məsud yaşa! <br>
-    Üçrəngli bayrağınla məsud yaşa!
-<br><br>
-Minlərlə can qurban oldu, <br>
-Sinən hərbə meydan oldu! <br>
-Hüququndan keçən əsgər, <br>
-Hərə bir qəhrəman oldu! <br>
- <br><br>
-Sən olasan gülüstan, <br>
-Sənə hər an can qurban! <br>
-Sənə min bir məhəbbət <br>
-Sinəmdə tutmuş məkan! <br>
- <br><br>
-Namusunu hifz etməyə, <br>
-Bayrağını yüksəltməyə <br>
-Cümlə gənclər müştaqdır! <br>
-Şanlı Vətən! Şanlı Vətən! <br>
-Azərbaycan! Azərbaycan! <br>
-Azərbaycan! Azərbaycan
+<p style="background-color: lemonchiffon; border: 2px solid black;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi voluptatibus dicta tempore assumenda ipsam hic soluta odit, suscipit ea beatae!
 </p>
 
 
-    <br><br>
+    <form action="" method="get">
+    <label for="username">USER</label>
+    <input id="username" placeholder="user name" name="user_name" type="text">
+    
+<br><br><br>
 
+<label for="email">EMAIL</label>
+<input id="email" placeholder="email" name="email" type="email">
+<button type="submit">submit</button>
 
-    </div>
+<br><br><br>
+
+<label for="number">NUMBER</label>
+<input id="number" placeholder="phone number" name="phone_number" type="number">
+<button type="submit">submit</button>
+
+<br><br>
+
+<textarea name="area" id="" cols="30" rows="10"></textarea>
+</form>
+<br><br><br>
+
+<video width="320" height="220" controls>
+    <source src="movie.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+</video>
+<br><br><br>
+
+<audio width="320" height="220" controls>
+    <source src="voice.mp4" type="audio/mp4">
+    <source src="voice.ogg" type="audio/ogg">
+    Your browser does not support the audio tag.
+</audio>
+
+<br><br><br>
+
+<header>
+    <nav></nav>
+</header>
+<br><br><br>
+
+<section>
+    <a target="_blank" href="https://www.w3schools.com/">W3SCHOOLSS</a>
+</section>
+
+<iframe width="300" height="500" src="https://i-link.az/"></iframe>
+
+<br><br><br>
+
+<abbr title="Worl Wide Web">WWW</abbr>
 </body>
+
 </html>
